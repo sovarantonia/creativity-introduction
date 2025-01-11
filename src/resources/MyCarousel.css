@@ -1,0 +1,48 @@
+.custom-dots {
+    bottom: 0 !important; /* Position the dots at the bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    margin: 0; /* Remove any margin */
+}
+
+.custom-dots li {
+    width: 16px;
+    height: 16px;
+    background: #4c394b;
+    border: none;
+}
+
+.custom-dots li.slick-active button {
+    background: #e4b1e1;
+    box-shadow: 0 0 8px #e4b1e1;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    transition: background 0.3s ease;
+}
+
+.arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.left-arrow {
+    left: 300px; /* Position left arrow to the left */
+}
+
+.right-arrow {
+    right: 300px; /* Position right arrow to the right */
+}
